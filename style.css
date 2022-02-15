@@ -380,8 +380,8 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .coding-skills .carousel .card img{
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 350px;
     object-fit: cover;
     border-radius: 25%;
     border: 5px solid crimson;
@@ -509,6 +509,9 @@ footer{
     background: #111;
     padding: 20px 23px;
     color: #fff;
+}
+footer div{
+    margin-bottom: 3px;
 }
 footer span a{
     color: crimson;

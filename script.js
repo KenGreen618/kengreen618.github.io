@@ -32,7 +32,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["aspiring software developer", "University graduate"],
+        strings: ["Hello!", "Konichiwa!"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
