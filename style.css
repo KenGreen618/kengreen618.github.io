@@ -246,18 +246,18 @@ section .title::after{
 
 /* education section styling */
 .education h2{
-    color:#111;
+    color:#fff;
 }
 .education{
     color: #fff;
-    background: #fff;
-}
-.education .title::before{
     background: #111;
 }
-.education .title::after{
+.education .title::before{
     background: #fff;
-    content: "what i've studied";
+}
+.education .title::after{
+    background: #111;
+    content: "what i've handled";
 }
 .education .serv-content .card{
     width: calc(33% - 20px);
@@ -293,14 +293,14 @@ section .title::after{
 
 /* skills section styling */
 .skills{
-    background-color: #111;
-    color: #fff;
+    background-color: #fff;
+    color: #111;
 }
 .skills .title::before{
-    background: #fff;
+    background: #111;
 }
 .skills .title::after{
-    background: #111;
+    background: #fff;
     content: "what i know";
 }
 .skills .skills-content .column{
@@ -357,20 +357,20 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
+.skills-content .right .drive::before{
     width: 90%;
 }
-.skills-content .right .css::before{
-    width: 60%;
+.skills-content .right .communication::before{
+    width: 81%;
 }
-.skills-content .right .js::before{
-    width: 80%;
+.skills-content .right .programming::before{
+    width: 40%;
 }
-.skills-content .right .php::before{
-    width: 50%;
+.skills-content .right .problemsolving::before{
+    width: 81%;
 }
-.skills-content .right .mysql::before{
-    width: 70%;
+.skills-content .right .bjj::before{
+    width: 10%;
 }
 
 /* coding-skills SECTION STYLING */

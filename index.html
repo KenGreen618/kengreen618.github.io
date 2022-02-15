@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="lib/moment/moment.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
 </head>
@@ -23,9 +24,9 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#education" class="menu-btn">Services</a></li>
+                <li><a href="#coding-skills" class="menu-btn">Coding</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#coding-skills" class="menu-btn">Coding skills</a></li>
+                <li><a href="#education" class="menu-btn">Experience</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -57,8 +58,15 @@
                 <div class="column right">
                     <div class="text"> <span class="typing-2"></span></div>
                     <p>My name is Ken I'm 23 years old and I graduated from the University of Nottingham in 2021 with a 2;1 in Accounting and Finance. 
-                        <br> Since then I have made a huge career change into programming and although I've only been programming for 4 weeks I am very proud of the progress I have made so far.
-                        <br> I find programming a hugely fufilling and exciting career (much more so than finance!) and would love to apply my knack of learning things quickly to your company.                
+                        <br> Since then I have made a huge career change into programming and although I've only been programming for 4 weeks
+                        <script type="text/javascript" src="lib/moment/moment.min.js">
+                            var a = moment([2007, 0, 28]);
+                            var b = moment([2007, 0, 29]);
+                            a.from(b)
+                            moment(a.from(b)).format()
+                        </script>
+                        I am very proud of the progress I have made so far.
+                        <br> I find programming a hugely fufilling and exciting career (much more so than accounting!) and would love to apply my knack of learning things quickly to your company.                
                     </p>
                     <a href="#">Download CV</a>
                 </div>
@@ -69,7 +77,7 @@
     <!-- coding-skills SECTION START -->
     <section class="coding-skills" id="coding-skills">
         <div class="max-width">
-            <h2 class="title">My coding skills</h2>
+            <h2 class="title">My coding journey</h2>
             <div class="carousel owl-carousel">
                 <div class="card box">
                     <div class="box">
@@ -89,20 +97,69 @@
                     <div class="box">
                         <img src="images/front-end-engineer.JPG" alt="">
                         <div class="text">Front-End Engineer</div>
-                        <p>I am 9% through a 350 hour "career path" to become a Front-End Engineer</p>
-                    </div>
-                </div>
-                <div class="card box">
-                    <div class="box">
-                        <img src="images/profile-4.jpeg" alt="">
-                        <div class="text">JavaScript</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        <p>I am 20% through a 350 hour "career path" to become a Front-End Engineer</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
+<!-- skills section start -->
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My skills</h2>
+        <div class="skills-content">
+            <div class="column left">
+                <div class="text">My creative skills & experience</div>
+                <p>I have shown consistent drive and work ethic at University, Bitsilk Investments and on my GitHub and CodeAcademy courses.
+                   <br><br> My experience managing 30 interns at Bit Silk Investments and being a call operator at Sitel boosted my communication and people skills.
+                   <br><br> I am still a beginner in programming but I'm making fast progress with a strong growth mindset.
+                   <br><br> My problem solving skills are from a love of puzzle games like chess. My blitz ranking is in the top 23rd percentile globally.
+                    <br><br> Finally my Brazillian Ju Jitsu skills are admittedly weak and I'm paying the price for it!
+                </p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span>Drive and work ethic</span>
+                        <span>Very Strong</span>
+                    </div>
+                    <div class="line drive"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Communication and people skills</span>
+                        <span>Strong</span>
+                    </div>
+                    <div class="line communication"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Programming</span>
+                        <span>Beginner but improving quickly</span>
+                    </div>
+                    <div class="line programming"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Problem solving</span>
+                        <span>Strong</span>
+                    </div>
+                    <div class="line problemsolving"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Brazillian Ju Jitsu</span>
+                        <span>Still getting my ass kicked!</span>
+                    </div>
+                    <div class="line bjj"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Experience/ education section start -->
     <section class="education" id="education">
@@ -141,56 +198,7 @@
         </div>
     </section>
 
-<!-- skills section start -->
-    <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">My skills</h2>
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text">My creative skills & experience</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente suscipit rem vitae voluptatem, exercitationem fugiat incidunt culpa, voluptatibus accusamus minus ut facilis beatae expedita maiores, animi praesentium corporis dignissimos eum nisi reprehenderit aliquid. Amet dolorem facere ullam maiores soluta vel, placeat reiciendis perferendis hic blanditiis nisi delectus, ab exercitationem omnis corrupti repellat sint enim porro sed possimus doloremque eius at?</p>
-                    <a href="#">Read more</a>
-                </div>
-                <div class="column right">
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line js"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>PHP</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line php"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>MySQL</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line mysql"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
 
     <!-- contact section start -->
@@ -200,7 +208,9 @@
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in touch</div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non maxime quam repellat inventore est fugit fugiat iusto ipsam nemo at!</p>
+                    <p>This contact form is still under development and will be active soon!
+                        <br>In the meantime please contact me via email.
+                    </p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
@@ -220,7 +230,7 @@
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">abc@gmail.com</div>
+                                <div class="sub-title">ken.green668@gmail.com</div>
                             </div>
                         </div>
                     </div>

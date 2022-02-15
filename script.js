@@ -60,3 +60,6 @@ $(document).ready(function(){
         }
     });    
 });
+
+// date function
+
