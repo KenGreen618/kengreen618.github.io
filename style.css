@@ -229,18 +229,34 @@ section .title::after{
     background: none;
 }
 
-/* education section styling */
-.education, .coding-skills{
+/* coding skills background section styling */
+.coding-skills{
     color: #fff;
     background: #111;
 }
-.education .title::before,
 .coding-skills .title::before{
     background: #fff;
 }
-.education .title::after,
 .coding-skills .title::after{
     background: #111;
+    content: "what i've studied";
+}
+
+
+
+/* education section styling */
+.education h2{
+    color:#111;
+}
+.education{
+    color: #fff;
+    background: #fff;
+}
+.education .title::before{
+    background: #111;
+}
+.education .title::after{
+    background: #fff;
     content: "what i've studied";
 }
 .education .serv-content .card{
@@ -276,8 +292,15 @@ section .title::after{
 }
 
 /* skills section styling */
-
+.skills{
+    background-color: #111;
+    color: #fff;
+}
+.skills .title::before{
+    background: #fff;
+}
 .skills .title::after{
+    background: #111;
     content: "what i know";
 }
 .skills .skills-content .column{
